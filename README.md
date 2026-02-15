@@ -1,5 +1,5 @@
 # clustalo
-Small, distroless-when-possible container for `clustalo`.
+Small compatibility-focused container for `clustalo`.
 
 ## how to use
 ```bash

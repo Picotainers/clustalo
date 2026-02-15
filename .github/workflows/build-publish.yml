@@ -1,4 +1,4 @@
-name: Build and Publish Distroless clustalo
+name: Build and Publish clustalo
 
 on:
   push:

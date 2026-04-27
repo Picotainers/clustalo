@@ -1,7 +1,16 @@
 # clustalo
-Small compatibility-focused container for `clustalo`.
+Source-built `clustalo` container.
 
-## how to use
+## Quick Usage
 ```bash
-docker run --rm -v "$(pwd):/data" picotainers/clustalo:latest --help
+# Pull the image
+docker pull docker.io/picotainers/clustalo:latest
+
+# Run the tool
+docker run --rm docker.io/picotainers/clustalo:latest --help
+```
+
+## Example
+```bash
+docker run --rm -v "$(pwd):/data" docker.io/picotainers/clustalo:latest --help
 ```

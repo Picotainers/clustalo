@@ -8,7 +8,7 @@ ARG CLUSTALO_SHA256=7f61b607d1f69e2f26372ddd80d3ffdcd2b2dd961af22887f6eb60412b7e
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-        ca-certificates curl g++ make \
+        ca-certificates curl g++ libargtable2-dev make \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /src
